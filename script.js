@@ -131,13 +131,6 @@
 /// a little project
 //  toaster
 
-
-// function createToaster(){
-//     return function(){
-         
-//     }
-// }
-
 function createToaster(config){
     return function(str){
         let div = document.createElement("div");
